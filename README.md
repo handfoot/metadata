@@ -24,9 +24,8 @@ mat2 is not only useful for removing metadata, but also useful for viewing the m
 
 ### Usage
 
-Once installed, using mat2 is simple. Suppose one downloads an image of [Chris Patten](https://en.wikipedia.org/wiki/Chris_Patten) from wikipedia, and saves the image file as `patten.jpg` in the Desktop.
+Once installed, using mat2 is simple. Suppose one downloads an image of [Chris Patten](https://en.wikipedia.org/wiki/Chris_Patten) from wikipedia, and saves the image file as `patten.jpg` in the Desktop:
 
-**patten.jpg**
 <p align="center">
   <img width="50%" src="img/patten.jpg"/>
 </p>
@@ -62,6 +61,8 @@ In addition to the Chris Patten image, which is in JPEG format, I also tested tw
 
 **doraemon.mp4**
 <video src="img/doraemon.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; margin: auto; width: 100%;" ></video>
+
+Below are what the metadata looks like for these two files:
 
 [PNG File](https://zh.wikipedia.org/wiki/%E9%AB%98%E7%99%BB%E8%A8%8E%E8%AB%96%E5%8D%80) | [MP4 file](https://twitter.com/JOceanW/status/1172108646156652544)
 :----- | :----: 
