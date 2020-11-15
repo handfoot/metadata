@@ -11,8 +11,7 @@ Even if your name or direct identification is not in the metadata, relatively si
 **Summary**&nbsp; In this article, we will:
 
 - Introduce `mat2` tool for viewing and removing metadata from most media files.
-- Investigate the use of `Signal` / `Telegram` to remove metadata from JPEG images, and also highlight the **failure cases** of using such apps on removing metadata from 
-- non-JPEG media.
+- Investigate the use of `Signal` / `Telegram` to remove metadata from JPEG images, and also highlight the **failure cases** of using such apps on removing metadata from non-JPEG media.
 
 ## mat2
 
