@@ -37,7 +37,9 @@ One can view the metadata inside this file using Terminal, and type:
 
 And the program will output the metadata inside the file:
 
-[patten_metadata]
+<p align="left">
+  <img width="50%" src="img/patten_metadata.cleaned.png"/>
+</p>
 
 As we can see, the name of the photographer, camera, software, and other information is inside this photo. To remove the metadata, we can type:
 
@@ -54,7 +56,7 @@ In addition to the Chris Patten image, which is in JPEG format, I also tested tw
 [PNG File](https://zh.wikipedia.org/wiki/%E9%AB%98%E7%99%BB%E8%A8%8E%E8%AB%96%E5%8D%80) | [MP4 file](https://twitter.com/JOceanW/status/1172108646156652544)
 :----- | :----: 
 Hkg_logo_2010_end.png   | doraemon.mp4
-metadata | metadata
+<img width="100%" src="img/hkg_logo_metadata.cleaned.png"/> | <img width="100%" src="img/doraemon_metadata.cleaned.png"/>
 
 **Hkg_logo_2020_end.png**
 <p align="left">
