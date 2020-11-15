@@ -60,7 +60,7 @@ In addition to the Chris Patten image, which is in JPEG format, I also tested tw
 </p>
 
 **doraemon.mp4**
-<video src="img/doraemon.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; margin: auto; width: 75%;" ></video>
+<video src="img/doraemon.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; margin: auto; width: 100%;" ></video>
 
 &nbsp;
 Below are what the metadata looks like for these two files:
