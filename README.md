@@ -53,15 +53,15 @@ And the output is simply `No metadata found in patten.cleaned.jpg`. It will then
 
 In addition to the Chris Patten image, which is in JPEG format, I also tested two other files, in PNG format, typically used for design or infographic files as it is lossless compression, and also an MP4 video file. I have confirmed that mat2 can remove the metadata from these two different file types. In the case of MP4, some metadata fields are required, and mat2 will simply fill the metadata with default information, and removing all unnecessary metadata tags.
 
+**Hkg_logo_2020_end.png**
+<p align="left">
+  <img width="50%" src="img/Hkg_logo_2010_end.png"/>
+</p>
+
 [PNG File](https://zh.wikipedia.org/wiki/%E9%AB%98%E7%99%BB%E8%A8%8E%E8%AB%96%E5%8D%80) | [MP4 file](https://twitter.com/JOceanW/status/1172108646156652544)
 :----- | :----: 
 Hkg_logo_2010_end.png   | doraemon.mp4
-<img width="100%" src="img/hkg_logo_metadata.cleaned.png"/> | <img width="100%" src="img/doraemon_metadata.cleaned.png"/>
-
-**Hkg_logo_2020_end.png**
-<p align="left">
-  <img width="50%" src="img/hkg_logo_metadata.cleaned.png"/>
-</p>
+<img width="50%" src="img/hkg_logo_metadata.cleaned.png"/> | <img width="100%" src="img/doraemon_metadata.cleaned.png"/>
 
 I understand that not everyone can install mat2 and use a command line program, so I also investigated ways of using existing apps, such as Signal and Telegram to remove metadata from image files. In the next sections, I will outline when we can use Signal and Telegram to remove metadata from our media, and also highlight the limitations of using those apps.
 
