@@ -56,12 +56,13 @@ In addition to the Chris Patten image, which is in JPEG format, I also tested tw
 
 **Hkg_logo_2020_end.png**
 <p align="left">
-  <img width="100%" src="img/Hkg_logo_2010_end.png"/>
+  <img width="75%" src="img/Hkg_logo_2010_end.png"/>
 </p>
 
 **doraemon.mp4**
-<video src="img/doraemon.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; margin: auto; width: 100%;" ></video>
+<video src="img/doraemon.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; margin: auto; width: 75%;" ></video>
 
+&nbsp;
 Below are what the metadata looks like for these two files:
 
 [PNG File](https://zh.wikipedia.org/wiki/%E9%AB%98%E7%99%BB%E8%A8%8E%E8%AB%96%E5%8D%80) | [MP4 file](https://twitter.com/JOceanW/status/1172108646156652544)
@@ -91,7 +92,6 @@ Video  | ❌
 
 ## Telegram
 
-*Example of sending a photo vs sending a file in Telegram a channel:*
 <p align="center">
   <img width="50%" src="img/telegram_example.cleaned.jpeg"/>
 </p>
