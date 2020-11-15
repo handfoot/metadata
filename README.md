@@ -51,12 +51,17 @@ And a new file, called `patten.clean.jpg` will be created that is free of any me
 
 And the output is simply `No metadata found in patten.cleaned.jpg`. It will then be safe to share `patten.cleaned.jpg` to other people even in a large chat group.
 
+### Other Examples
+
 In addition to the Chris Patten image, which is in JPEG format, I also tested two other files, in PNG format, typically used for design or infographic files as it is lossless compression, and also an MP4 video file. I have confirmed that mat2 can remove the metadata from these two different file types. In the case of MP4, some metadata fields are required, and mat2 will simply fill the metadata with default information, and removing all unnecessary metadata tags.
 
 **Hkg_logo_2020_end.png**
 <p align="left">
   <img width="50%" src="img/Hkg_logo_2010_end.png"/>
 </p>
+
+**doraemon.mp4**
+<video src="img/doraemon.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; margin: auto; width: 100%;" ></video>
 
 [PNG File](https://zh.wikipedia.org/wiki/%E9%AB%98%E7%99%BB%E8%A8%8E%E8%AB%96%E5%8D%80) | [MP4 file](https://twitter.com/JOceanW/status/1172108646156652544)
 :----- | :----: 
