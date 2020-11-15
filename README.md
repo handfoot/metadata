@@ -2,7 +2,7 @@
 
 *Last Update: November 2020*
 
-Whether you are taking photos or videos from your phone, or producing content using software such as Photoshop, Sketch, or other tools, the files you produce will often include `metadata` information that is not part of the content of your media, but still attached to the file.
+Whether you are taking photos or videos from your phone, or producing content using software such as Photoshop or Figma, the files you produce will often include `metadata` information that is not part of the content of your media, but still attached to the file.
 
 The metadata will include information that may compromise your security and privacy. It will include information such as the geo-coordinates of where the photo had been taken, camera's settings (such as aperture and light, camera model), time and date, copyright information, software used to produce the media, and even the name or owner of the software license and the operating system information, ... you get the point.
 
@@ -75,7 +75,7 @@ I understand that not everyone can install mat2 and use a command line program, 
 
 Signal is an instant messaging app designed with privacy in mind. Reporters often use Signal to communicate with sources, and to exchange sensitive photos. As such, Signal has built-in functionality to automatically remove metadata, particularly geo-location information from media sent using the app. This means one can use Signal to help remove metadata from one's media files by sending them to oneself (using "Note to Self" chat group), deleting the original media, and saving the version sent to Signal back on one's device. (Don't do this yet until you read my findings about what works and what doesn't work below):
 
-*Example of sending media files to yourself in Signal to remove the metadata (Note: only JPEG files have their metadata removed by Signal):*
+*Example of sending media files to yourself in Signal to remove the metadata (Important: only JPEG files have metadata removed):*
 <p align="center">
   <img width="75%" src="img/signal_note_to_self.cleaned.png"/>
 </p>
@@ -91,6 +91,11 @@ Video  | ❌
 
 ## Telegram
 
+*Example of sending a photo vs sending a file in Telegram a channel:*
+<p align="center">
+  <img width="50%" src="img/telegram_example.cleaned.jpeg"/>
+</p>
+
 There are occasions when Telegram's functionality will help remove metadata from certain image files (JPEG in particular). I will discuss Telegram in this section. There are two ways to send a media file to someone else on Telegram. One is attaching a media (photo / video) (we refer this as "Send Media Option"), and the other is attaching a file (we refer this as "Send File Option").
 
 *How to send a photo vs sending a file in Telegram:*
@@ -99,11 +104,6 @@ There are occasions when Telegram's functionality will help remove metadata from
 </p>
 
 If one attaches a media file, Telegram will compress the media (meaning a PNG file will be converted to a JPEG, and a high quality JPEG file will be compressed to a lower quality one). This also means that the media file you send will no longer be the exact file sent to the channel, but another version of the file. As such, the metadata will be altered, depending on how Telegram app does it. After some investigation, I find that JPEG images sent will always have their metadata removed. However, PNG and Video will not always have their metadata removed.
-
-*Example of sending a photo vs sending a file in Telegram a channel:*
-<p align="center">
-  <img width="50%" src="img/telegram_example.cleaned.jpeg"/>
-</p>
 
 Telegram (Send Media Option) | Is Metadata Always Removed?
 :----- | :----: 
