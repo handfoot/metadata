@@ -69,7 +69,7 @@ Below are what the metadata looks like for these two files:
 Hkg_logo_2010_end.png   | doraemon.mp4
 <img width="50%" src="img/hkg_logo_metadata.cleaned.png"/> | <img width="100%" src="img/doraemon_metadata.cleaned.png"/>
 
-I understand that not everyone can install mat2 and use a command line program, so I also investigated ways of using existing apps, such as Signal and Telegram to remove metadata from image files. In the next sections, I will outline when we can use Signal and Telegram to remove metadata from our media, and also highlight the limitations of using those apps.
+I understand that not everyone can install mat2 and use a command line program, so I also investigated ways of using existing apps, such as Signal and Telegram to remove metadata from image files. In the next sections, I will outline when we can use Signal and Telegram to remove metadata from our media, and also highlight the limitations of using these apps.
 
 ## Signal
 
