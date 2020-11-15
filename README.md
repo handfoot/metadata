@@ -54,6 +54,8 @@ And the output is simply `No metadata found in patten.cleaned.jpg`. It will then
 
 In addition to the Chris Patten image, which is in JPEG format, I also tested two other files, in PNG format, typically used for design or infographic files as it is lossless compression, and also an MP4 video file. I have confirmed that mat2 can remove the metadata from these two different file types. In the case of MP4, some metadata fields are required, and mat2 will simply fill the metadata with default information, and removing all unnecessary metadata tags.
 
+---
+
 **Hkg_logo_2020_end.png**
 <p align="left">
   <img width="75%" src="img/Hkg_logo_2010_end.png"/>
@@ -62,7 +64,8 @@ In addition to the Chris Patten image, which is in JPEG format, I also tested tw
 **doraemon.mp4**
 <video src="img/doraemon.mp4" type="video/mp4" autoplay muted playsinline loop style="display: block; margin: auto; width: 100%;" ></video>
 
-&nbsp;
+---
+
 Below are what the metadata looks like for these two files:
 
 [PNG File](https://zh.wikipedia.org/wiki/%E9%AB%98%E7%99%BB%E8%A8%8E%E8%AB%96%E5%8D%80) | [MP4 file](https://twitter.com/JOceanW/status/1172108646156652544)
@@ -81,7 +84,7 @@ Signal is an instant messaging app designed with privacy in mind. Reporters ofte
   <img width="75%" src="img/signal_note_to_self.cleaned.png"/>
 </p>
 
-However, upon my own investigation, I find that Signal actually fails to remove any metadata at all for PNG files, and does not remove metadata from Video files. The only file
+However, upon my own investigation, I find that Signal actually fails to remove any metadata at all for PNG files, and does not remove metadata from Video files. The only files where the metadata gets removed are JPEG images.
 
 Signal | Is Metadata Always Removed?
 :----- | :----: 
