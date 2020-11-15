@@ -29,7 +29,7 @@ Once installed, using mat2 is simple. Suppose one downloads an image of [Chris P
   <img width="50%" src="img/patten.jpg"/>
 </p>
 
-One can view the metadata inside this file using Terminal, and type:
+One can view the metadata inside this file using Terminal by typing:
 
 `mat2 -s patten.jpg`
 
